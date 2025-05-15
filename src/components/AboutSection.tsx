@@ -8,16 +8,16 @@ const AboutSection = () => {
   const { toast } = useToast();
   
   const handleDownloadCV = () => {
-    // In a real implementation, you would link to an actual file
     toast({
-      title: "CV Download Started",
-      description: "Your download will begin shortly.",
+      title: "Opening CV",
+      description: "Opening the CV will begin shortly.",
     });
-    
+    window.open("Muhammad_Ilham_Bin_RIzalman_Haris_Resume.pdf", "_blank"); // This will open/download the file
+
     // Simulate download process
     setTimeout(() => {
       toast({
-        title: "CV Downloaded Successfully",
+        title: "CV Opened Successfully",
         description: "Thank you for your interest!",
       });
     }, 2000);
@@ -34,8 +34,8 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700">
-              As a recent graduate with a degree in Data Analytics, I specialize in creating IoT ecosystems 
-              and data analysis solutions that bridge the gap between physical devices and actionable insights.
+              AI am an enthusiastic Information Technology graduate from Universiti Teknologi PETRONAS, majoring in Data Analytics with a minor in Financial Management. 
+                My academic journey has equipped me with a solid foundation in both hardware and software aspects of IoT ecosystems, as well as strong analytical skills for deriving meaningful insights from data.
             </p>
             
             <p className="text-lg text-gray-700">

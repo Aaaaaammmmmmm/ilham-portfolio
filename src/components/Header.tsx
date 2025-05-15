@@ -40,8 +40,14 @@ const Header = () => {
           <a href="#technologies" className="text-gray-700 hover:text-primary-600 font-medium">
             Technologies
           </a>
+          <a href="#skills" className="text-gray-700 hover:text-primary-600 font-medium">
+            Skills
+          </a>
           <a href="#projects" className="text-gray-700 hover:text-primary-600 font-medium">
             Projects
+          </a>
+          <a href="#certifications" className="text-gray-700 hover:text-primary-600 font-medium">
+            Certifications
           </a>
           <a href="#contact">
             <Button className="rounded-full">Contact Me</Button>
@@ -87,11 +93,25 @@ const Header = () => {
               Technologies
             </a>
             <a 
+              href="#skills" 
+              className="text-gray-700 hover:text-primary-600 font-medium py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Skills
+            </a>
+            <a 
               href="#projects" 
               className="text-gray-700 hover:text-primary-600 font-medium py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
+            </a>
+            <a 
+              href="#certifications" 
+              className="text-gray-700 hover:text-primary-600 font-medium py-2"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Certifications
             </a>
             <a 
               href="#contact"

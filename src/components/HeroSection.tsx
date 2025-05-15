@@ -16,11 +16,11 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
           <div className="lg:col-span-7 space-y-6 animate-fade-in-up">
             <Badge className="inline-flex items-center rounded-full bg-blue-100 px-2.5 py-1 text-xs md:text-sm font-medium text-blue-800">
-              IoT Engineer & Data Analyst | Fresh Graduate
+              IoT Engineer & Data Analyst
             </Badge>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Hi, I'm <span className="text-primary-600">Muhammad Ilham</span>, IoT Engineer & Data Analyst
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              Hi, I'm <span className="text-primary-600">Muhammad Ilham</span>
             </h1>
             
             <p className="text-lg md:text-xl text-gray-700 max-w-xl animate-fade-in-up animate-delay-100">
@@ -42,7 +42,7 @@ const HeroSection = () => {
             
             <div className="flex items-center gap-4 pt-4 animate-fade-in-up animate-delay-300">
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/muhammad-ilham-rizalman-haris" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 transition-colors"
@@ -50,7 +50,7 @@ const HeroSection = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="https://github.com" 
+                href="https://github.com/Aaaaaammmmmmm" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 transition-colors"
@@ -58,7 +58,7 @@ const HeroSection = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="mailto:example@email.com" 
+                href="mailto:muhdilham2002@email.com" 
                 className="text-gray-600 hover:text-primary-600 transition-colors"
               >
                 <Mail size={24} />

@@ -7,6 +7,8 @@ import TechnologiesSection from "@/components/TechnologiesSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import Skills from "@/components/Skills";
+import Certifications from "@/components/Certifications";
 
 const Index = () => {
   useEffect(() => {
@@ -20,7 +22,9 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <TechnologiesSection />
+        <Skills />
         <ProjectsSection />
+        <Certifications />
         <ContactSection />
       </main>
       <Footer />
